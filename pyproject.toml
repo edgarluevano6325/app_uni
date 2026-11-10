@@ -1,0 +1,19 @@
+[project]
+name = "app-reflex"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "edgarluevano6325", email = "edgar.luevano6325@alumnos.udg.mx" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "reflex>=0.10.1",
+]
+
+[project.scripts]
+app-reflex = "app_reflex:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
